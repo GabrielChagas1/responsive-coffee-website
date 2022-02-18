@@ -124,6 +124,15 @@ button {
   height: 20px;
   background-color: var(--first-color);
 }
+/*=============== HEADER & NAV ===============*/
+.header{
+  width: 100%;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+}
 
 /*=============== HEADER & NAV ===============*/
 
