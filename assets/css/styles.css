@@ -134,8 +134,62 @@ button {
   z-index: var(--z-fixed);
 }
 
-/*=============== HEADER & NAV ===============*/
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.nav__logo,
+.nav__toggle{
+  color: #fff;
+}
+
+.nav__logo{
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-bold);
+}
+
+.nav__logo-img{
+  width: .75rem;
+}
+
+.nav__toggle{
+  display: inline-flex;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.nav__list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 3rem;
+  padding-top: 9rem;
+}
+
+.nav__link{
+  text-transform: uppercase;
+  color: var(--text-color-light);
+  font-size: var(--h2-font-size);
+  transition: .3s;
+}
+
+.nav__link:hover{
+  color: #fff;
+}
+
+.nav__close{
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
 
 /* Show menu */
 
