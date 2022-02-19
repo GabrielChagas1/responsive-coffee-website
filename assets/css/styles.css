@@ -127,7 +127,7 @@ button {
 /*=============== HEADER & NAV ===============*/
 .header{
   width: 100%;
-  background: #000;
+  background: transparent;
   position: fixed;
   top: 0;
   left: 0;
