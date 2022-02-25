@@ -54,7 +54,14 @@ let mixerProducts = mixitup('.products__content', {
 mixerProducts.filter('.delicacies')
 
 /* Link active products */ 
+const linkProducts = document.querySelectorAll('.products__item');
 
+function activeProducts(){
+    linkProducts.forEach(i => i.classList.remove('active-product'));
+    this.classList.add('active-product')
+}
+
+linkProducts.forEach(i => i.addEventListener('click', activeProducts))
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
