@@ -225,7 +225,9 @@ button {
 }
 
 /* Active link */
-
+.active-link{
+  color: #fff;
+}
 
 /*=============== HOME ===============*/
 .home{
