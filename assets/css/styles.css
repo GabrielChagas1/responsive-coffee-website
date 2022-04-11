@@ -745,12 +745,10 @@ button {
   opacity: 1;
 }
 
+/* Show Scroll Up*/
 .show-scroll{
   bottom: 3rem;
 }
-
-/* Show Scroll Up*/
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
