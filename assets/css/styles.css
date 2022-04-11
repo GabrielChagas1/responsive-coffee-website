@@ -752,9 +752,42 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
+  .quality__img-small{
+    transform: translateX(-6rem);
+  }
+
+  .quality__buttons{
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .specialty__category{
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 3rem;
+  }
+
+  .products__content{
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  .blog__content{
+    grid-template-columns: 450px;
+    justify-content: center;
+  }
+
+  .footer__newsletter{
+    width: 350px;
+  }
+}
 
 
 /* For large devices */
